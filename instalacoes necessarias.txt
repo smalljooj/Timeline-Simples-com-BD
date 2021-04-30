@@ -1,9 +1,6 @@
 
 npm install --save express
 npm install --save sequelize
-
-
-
-
+npm instal --save body-parser
 
 npm install --save express-handlebars
