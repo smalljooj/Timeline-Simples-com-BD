@@ -1,0 +1,9 @@
+
+npm install --save express
+npm install --save sequelize
+
+
+
+
+
+npm install --save express-handlebars

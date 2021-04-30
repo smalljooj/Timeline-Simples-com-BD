@@ -1,0 +1,12 @@
+<h2>Mensagens de desabafo:</h2>
+<h2>Deixe aqui o Seu</h2>
+<form action="/cad" method="GET">
+	<button type="submit">Aqui</button>
+</form>
+<!-- each é como se fosse, de cada post em cada post faça... -->
+
+{{#each posts}}
+	<h1>{{dataValues.titulo}}</h1>
+	<p>{{dataValues.conteudo}}</p>
+	<hr>
+{{/each}}
